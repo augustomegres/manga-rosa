@@ -21,3 +21,4 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.resource('employees', 'EmployeesController').only(['index', 'store'])
+Route.resource('validations', 'ValidationsController').only(['update'])
